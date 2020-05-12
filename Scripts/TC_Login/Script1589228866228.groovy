@@ -29,9 +29,9 @@ WebUI.click(findTestObject('Object Repository/HomePage/button_Camilo Sexto_dropd
 
 WebUI.click(findTestObject('Object Repository/HomePage/a_Camilo Sexto'))
 
-//WebUI.click(findTestObject('Object Repository/HomePage/button_Camilo Sexto_dropdown-text'))
+WebUI.click(findTestObject('Object Repository/HomePage/button_Camilo Sexto_dropdown-text'))
 
-WebUI.click(findTestObject('Object Repository/HomePage/button_Cerrar sesin'))
+WebUI.click(findTestObject('HomePage/button_Cerrar sesion'))
 
 WebUI.verifyElementPresent(findTestObject('Login/a_Has olvidado tu contrasea'), 0)
 
